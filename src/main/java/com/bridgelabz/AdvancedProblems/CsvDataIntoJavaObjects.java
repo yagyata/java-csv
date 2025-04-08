@@ -6,7 +6,7 @@ import java.util.List;
 
 public class CsvDataIntoJavaObjects {
     public static void main(String[] args) {
-        String filePath = "src\\main\\java\\com\\bridgelabz\\AdvancedProblems\\studentRecord.csv";
+        String filePath = "src/main/java/com/bridgelabz/AdvancedProblems/studentRecord.csv";
         try {
             FileReader reader = new FileReader(filePath);
 
